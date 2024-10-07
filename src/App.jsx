@@ -56,10 +56,10 @@ function App() {
 
   // Function to format the background color based on temperature
   const formatBackground = () => {
-    if (!weather) return 'from-cyan-700 to-blue-700';
+    if (!weather) return 'from-cyan-600 to-blue-600';
     const threshold = units === 'metric' ? 25 : 60 || units === 'imperial' ? 77 : 140;
-    if (weather.temp <= threshold) return 'from-blue-700 to-cyan-700';
-    return 'from-orange-700 to-yellow-600';
+    if (weather.temp <= threshold) return 'from-blue-600 to-cyan-600';
+    return 'from-orange-600 to-yellow-600';
   };
 
   return (
