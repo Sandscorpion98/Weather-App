@@ -79,7 +79,7 @@ function App() {
       )}
 
       {/* Toast notifications */}
-      <ToastContainer autoClose={2500} theme="colored" />
+      <ToastContainer autoClose={1500} theme="colored" />
     </div>
   );
 }
