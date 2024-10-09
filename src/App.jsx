@@ -59,6 +59,7 @@ function App() {
     if (!weather) return 'from-cyan-600 to-blue-600';
     const threshold = units === 'metric' ? 25 : 77 ;
     if (weather.temp <= threshold) return 'from-blue-600 to-cyan-600';
+    else
     return 'from-orange-600 to-yellow-600';
   };
 
